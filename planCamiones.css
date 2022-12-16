@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(digital-7.ttf);
+}
+
+body{
+    font-family: 'Frutiger 55 Roman', Courier, monospace;
+    /*background: linear-gradient(120deg, #6c3483, #58d68D);
+    height: 50vh;*/
+}
+
+main{
+    position: center;
+    width: 100%;
+    /*border-radius: 5px;
+    background-color: #e5e5e5;
+    padding: 5px 5px;*/
+}
+
+.datable__principal {
+    display: grid;
+    grid-template-columns: auto auto;
+        /*border-radius: 5px;
+    background-color: #e5e5e5;
+    padding: 5px 5px;*/
+}
+
+.formulario{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.form__cliente__orden{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #58d68D;
+}
+
+.formPesos{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    /*background-color: orangered;*/
+}
+
+.formCabe{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    /*background-color: orangered;*/
+}
+
+.form50{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.formulario form{
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+form .formulario__planta{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 10px 5px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    overflow:hidden;
+    text-align: center;
+    /*transform: all 0.25s;*/
+}
+form .formulario__planta_l{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 10px 5px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    overflow:hidden;
+    text-align: left;
+}
+
+.peso {
+    background-color: orange;
+    color: black;
+    font-family: 'Frutiger 65' ;
+}
+/*
+.datable__principal .formulario{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow:hidden;
+    margin: 20px;
+    text-align: center;
+    transform: all 0.25s;
+}*/
+
+.Tarjeta {
+    padding: 5px 5px; 
+    background-color: whitesmoke; 
+    border-radius: 10px;
+    border-width:1px;
+    border-color:dimgray;
+    border-style: solid;
+}
+
+.seleccionada {
+    /*border-color:brown;*/
+    border-width:1px;
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+}
+
+.filter{
+    display: none;   
+}

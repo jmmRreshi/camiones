@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/planCamiones.css">
+
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+          <!--<img src="./images/Tenaris_logo_white.png" alt="">-->  
+            <span class="tituloApp">CheckList y Pesada de Camiones - Siat VA</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li class="buscar"><a href="#">Camiones en Planta</a></li>
+                <li class="buscar"><a href="checkList.html">Check List</a></li>
+                <li class="buscar"><a href="#">Ver Lista</a></li>
+                <li class="buscar"><a href="#">Pesar</a></li>
+                <li>
+                    <div class="buscar">
+                        <input type="search" placeholder="Buscar" class="buscador" id="buscador" value="">
+                        <div class="btn">
+                            <i class="fas fa-search icon"></i>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="divCont" class="datable__principal"></div>
+    </main>
+    <script src="/prueba.js"></script>
+    <script>
+        buscardor(".buscador", ".formulario__planta");
+    </script>
+
+
+</body>
+
+</html>
